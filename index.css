@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(to left, rgb(240, 234, 236), rgb(180, 186, 122));
+  text-align: center;
+  color: rgb(71, 69, 69);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+  font-size: 50px;
+  margin: 20px;
+}
+.mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ flex-direction: column;
+ margin: 10px;
+ padding: 10px;
+}
+.weatherContainer{
+  height: 530px;
+  width: 420px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(246, 242, 242);
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(107, 203, 233), rgb(240, 240, 136));
+ 
+}
+.inputCity, .search-button{
+  margin-top: 30px;
+  height: 60px;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px ;
+  background: linear-gradient(to left, rgb(107, 203, 233), rgb(224, 224, 108));
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.search-button{
+  width: 60px;
+  border-radius: 50%;
+}
+.search-button:hover {
+  background: linear-gradient(to right, rgb(242, 242, 238), rgb(213, 224, 227));
+}
+.displayWeather{
+  margin: 10px;
+  height: 400px;
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#weatherImage{
+  border-radius: 10px;
+}
+.weatherImageDescriptionBox{
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px;
+}
+.weatherDetails{
+  height: 120px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+}
+.weatherDetails i{
+  font-size: 40px;
+}
+.humidity{
+margin-left: 20px;
+}
+.windSpeed{
+margin-right: 20px;
+}
+.invalid-Location{
+  display: none;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.invalid-Location{
+  display: none;}
+
